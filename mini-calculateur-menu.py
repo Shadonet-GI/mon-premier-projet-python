@@ -30,6 +30,11 @@ elif choix=="6":
 else:
     print("choix invalide")
     
-    
+# j'ajoute un gestionnaire d'erreure dans mon programme
+try:
+    a= float(input("entrer un premier nombre"))
+    b= float(input("entrer le secong nombre"))
+except ValueError:
+    print("erreur:vous devez entrer un nombre valide !")
     
         
