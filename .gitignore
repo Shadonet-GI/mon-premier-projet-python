@@ -1,0 +1,6 @@
+ # Ignorer les fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Ignorer les fichiers temporaires de VS Code
+.vscode/
